@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Azure
+.azure/
+terraform.tfstate
+
+# IDE
+.vscode/
+.idea/
+
+# Data files
+data/raw/*.csv
+data/processed/*.parquet
